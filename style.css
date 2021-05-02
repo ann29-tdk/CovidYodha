@@ -18,7 +18,7 @@
 h1 {
   color: #426696;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
   opacity: 0.8;
   text-align: center;
 }
@@ -74,14 +74,7 @@ main {
   border-radius: 50%;
 }
 
-.circle1 {
-  top: 5%;
-  right: 15%;
-}
-.circle2 {
-  bottom: 5%;
-  left: 10%;
-}
+
 .dashboard {
   flex: 1;
   display: flex;
