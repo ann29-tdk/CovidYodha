@@ -11,10 +11,12 @@ h1 {
   opacity: 0.8;
   text-align: center;
 }
+
 h2,
 p {
   color: #658ec6;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   opacity: 0.8;
 }
 
@@ -94,7 +96,7 @@ main {
   padding: 0rem 1.8rem;
 }
 
-.games {
+.card01 {
   flex: 2;
 }
 
@@ -108,16 +110,16 @@ main {
 
 .pro img {
   position: absolute;
-  top: 11%;
-  right: 15%;
+  top: 03%;
+  right: 10%;
 }
 .pro h2 {
-  width: 40%;
+  width: 60%;
   color: white;
   font-weight: 600;
 }
 
-/* GAMES */
+/* card01 */
 .status {
   margin-bottom: 3rem;
 }
@@ -134,7 +136,7 @@ main {
   border-radius: 2rem;
 }
 
-.games {
+.card01 {
   margin: 5rem;
   display: flex;
   flex-direction: column;
