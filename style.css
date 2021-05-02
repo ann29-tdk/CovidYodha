@@ -132,10 +132,14 @@ main {
 }
 
 .card01 {
-  margin: 5rem;
+  margin: 4rem;
   display: flex;
+  flex-flow: row wrap;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  padding: 45;
+  margin: 45;
+  list-style: none;
 }
 
 .card {
@@ -145,8 +149,9 @@ main {
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.5)
   );
+  text-align: left;
   border-radius: 1rem;
-  margin: 2rem 0rem;
+  margin: 4rem 0rem;
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
